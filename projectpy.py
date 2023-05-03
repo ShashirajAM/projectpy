@@ -106,30 +106,30 @@
 #     return a
 # nums=[1,2,3,4]
 # runningSum(nums)
-#def countfactors(self,A):
-# A=17
-# c=0
-# i=1
-# while (i*i<=A):
-#     if (A%i==0):
-#         if (i==(A//i)):
-#             c+=1
-#         else:
-#             c+=2 
-#     i+=1
-# if c==2:
-#     print(1)
-# else:
-#     print(0) 
-# A=25  
-# if A==1:
-#     print(1)
-# i=2
-# while (i*i<=A):
-#     if i*i==A:
-#         print(i)
-#     i+=1
-#     print(-1)
+def countfactors(self,A):
+ A=17
+ c=0
+ i=1
+ while (i*i<=A):
+     if (A%i==0):
+         if (i==(A//i)):
+             c+=1
+         else:
+             c+=2 
+     i+=1
+ if c==2:
+     print(1)
+ else:
+     print(0) 
+ A=25  
+ if A==1:
+     print(1)
+ i=2
+ while (i*i<=A):
+     if i*i==A:
+         print(i)
+     i+=1
+     print(-1)
 import math as m
 class geometry:
     def __init__(self,radius):
