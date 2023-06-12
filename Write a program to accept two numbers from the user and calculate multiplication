@@ -1,0 +1,5 @@
+#Write a program to accept two numbers from the user and calculate multiplication
+num1=int(input("enter num1:"))
+num2=int(input("enter num2:"))
+result=num1*num2
+print(result)
