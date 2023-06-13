@@ -1,0 +1,7 @@
+**Write a Python function that takes a positive integer and returns the sum of the cube of all positive integers smaller than the specified number**
+def sumcubes(n):
+   total=0
+   for i in range(n):
+       total+=i*i*i
+   print(total)
+   sumcubes(6)
