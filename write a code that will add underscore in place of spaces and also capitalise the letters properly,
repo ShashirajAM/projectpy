@@ -1,0 +1,10 @@
+sentence=input()
+sentence=sentence.lower()
+words=sentence.split()
+
+#final=[word[0].upper()+word[1:] for word in words]
+final=[word.title() for word in words]
+final2='_'.join(final)
+print(final2)
+input = DaTa ScienCe
+output = Data Science
