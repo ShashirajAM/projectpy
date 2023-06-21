@@ -1,0 +1,9 @@
+import ast
+input_str = input()
+#input dictionary has been received in input_dict
+input_dict = ast.literal_eval(input_str)
+l=[]
+for key in input_dict.keys():
+    for w in input_dict[key]:
+        l.append(key+'_'+w)
+print(l)
